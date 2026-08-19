@@ -6,7 +6,31 @@
 
 ![Sales Revenue Dashboard](powerbi/Sales_dashboard.png)
 
-This project analyzes sales, profit, customers, products, regions, cities, categories, sub-categories, and customer segments to identify key business performance trends and profitability drivers.
+An interactive Power BI dashboard was created to provide a consolidated view of sales and profitability performance.
+
+### Dashboard Components
+
+**KPI Cards**
+
+* Total Sales
+* Total Profit
+* Total Orders
+* Profit Margin
+
+**Visual Analysis**
+
+* Monthly Sales & Profit Trend
+* Sales & Profit by Category
+* Sales & Profit by Region
+* Profit by Sub-category
+
+**Interactive Filters**
+
+* Date
+* Category
+* Region
+
+The dashboard allows users to filter the analysis dynamically and evaluate how sales and profitability change across different time periods, categories, and regions.
 
 The project combines **PostgreSQL** for data analysis and **Power BI** for interactive dashboard development.
 
@@ -60,46 +84,6 @@ The SQL analysis was performed using PostgreSQL to evaluate sales, profitability
 * RANK()
 * PARTITION BY
 * Conditional filtering
-
-## Power BI Dashboard
-
-An interactive Power BI dashboard was created to provide a consolidated view of sales and profitability performance.
-
-### Dashboard Components
-
-**KPI Cards**
-
-* Total Sales
-* Total Profit
-* Total Orders
-* Profit Margin
-
-**Visual Analysis**
-
-* Monthly Sales & Profit Trend
-* Sales & Profit by Category
-* Sales & Profit by Region
-* Profit by Sub-category
-
-**Interactive Filters**
-
-* Date
-* Category
-* Region
-
-The dashboard allows users to filter the analysis dynamically and evaluate how sales and profitability change across different time periods, categories, and regions.
-
-## Business Questions
-
-This project addresses questions such as:
-
-* How are sales and profit trending over time?
-* Which categories generate the most sales and profit?
-* Which regions perform best?
-* Which sub-categories have the strongest and weakest profitability?
-* Which customers contribute the most revenue?
-* Are there locations generating high sales but relatively low profit?
-* Which customer segments contribute most to overall performance?
 
 
 
