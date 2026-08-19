@@ -2,6 +2,10 @@
 
 ## Project Overview
 
+## Power BI Dashboard
+
+![Sales Revenue Dashboard](powerbi/Sales_dashboard.png)
+
 This project analyzes sales, profit, customers, products, regions, cities, categories, sub-categories, and customer segments to identify key business performance trends and profitability drivers.
 
 The project combines **PostgreSQL** for data analysis and **Power BI** for interactive dashboard development.
