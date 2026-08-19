@@ -85,5 +85,14 @@ The SQL analysis was performed using PostgreSQL to evaluate sales, profitability
 * PARTITION BY
 * Conditional filtering
 
+## Key Business Insights
+
+* Evaluated overall sales and profitability to understand business performance.
+* Identified the strongest and weakest-performing categories and sub-categories based on sales, profit, and profit margin.
+* Analyzed monthly sales performance and month-over-month growth to identify changes in business performance over time.
+* Identified high-value customers based on revenue, profitability, order frequency, and average order value.
+* Analyzed regional and city-level performance to identify locations with strong sales but relatively lower profitability.
+* Examined loss-making transactions and products to identify potential areas for profitability improvement.
+* Compared customer segments across regions to identify the most profitable segments.
 
 
