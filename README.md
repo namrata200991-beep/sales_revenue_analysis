@@ -2,6 +2,12 @@
 
 ## Project Overview
 
+## Dataset
+
+The dataset contains transactional sales information including order dates, customers, products, categories, sub-categories, regions, cities, customer segments, sales, profit, and discount.
+
+The analysis is performed at the transaction level using PostgreSQL, with Power BI used to create an interactive business dashboard.
+
 ## Power BI Dashboard
 
 ![Sales Revenue Dashboard](powerbi/Sales_dashboard.png)
@@ -52,6 +58,23 @@ The project combines **PostgreSQL** for data analysis and **Power BI** for inter
 * DAX
 * GitHub
 
+  ## Project Structure
+
+```text
+sales_revenue_analysis/
+│
+├── data/
+│   └── sales dataset
+│
+├── sql/
+│   └── sales and revenue analysis queries
+│
+├── powerbi/
+│   ├── Power BI dashboard (.pbix)
+│   └── Sales dashboard screenshot
+│
+└── README.md
+
 ## SQL Analysis
 
 The SQL analysis was performed using PostgreSQL to evaluate sales, profitability, customer performance, product performance, and regional trends.
@@ -95,4 +118,20 @@ The SQL analysis was performed using PostgreSQL to evaluate sales, profitability
 * Examined loss-making transactions and products to identify potential areas for profitability improvement.
 * Compared customer segments across regions to identify the most profitable segments.
 
+## Skills Demonstrated
+
+* SQL data analysis
+* PostgreSQL
+* Data aggregation and KPI analysis
+* CTEs and window functions
+* Profitability and margin analysis
+* Customer and product analysis
+* Geographic and segment analysis
+* Power BI dashboard development
+* DAX
+* Business insight generation
+
+## Project Workflow
+
+Raw Sales Data → PostgreSQL → SQL Analysis → Business Insights → Power BI Dashboard
 
