@@ -58,20 +58,21 @@ The project combines **PostgreSQL** for data analysis and **Power BI** for inter
 * DAX
 * GitHub
 
-  ## Project Structure
+```markdown
+## Project Structure
 
 ```text
 sales_revenue_analysis/
 │
 ├── data/
-│   └── sales dataset
+│   └── sales_revenue_analysis_cleaned.csv
 │
 ├── sql/
-│   └── sales and revenue analysis queries
+│   └── sales_analysis.sql
 │
 ├── powerbi/
-│   ├── Power BI dashboard (.pbix)
-│   └── Sales dashboard screenshot
+│   ├── sales_revenue_analysis.pbix
+│   └── Sales_dashboard.png
 │
 └── README.md
 
